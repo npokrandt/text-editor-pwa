@@ -33,8 +33,8 @@ module.exports = () => {
         display: 'standalone',
         icons: [
           {
-            src: path.resolve('src/images/logo.png'),
-            sizes: [96, 128, 192, 256, 500]
+            src: path.resolve('src/images/textditor-logo.png'),
+            sizes: [96, 128, 192, 256, 420]
           }
         ]
       }),
@@ -53,10 +53,6 @@ module.exports = () => {
         {
           test: /\.css$/i,
           use: [MiniCssExtractPlugin.loader, 'css-loader']
-        },
-        {
-          test: /\.(png|svg|jpg|jpeg|gif)$/i,
-          type: 'asset/resource'
         },
         {
           test: /\.(?:js|mjs|cjs)$/,
