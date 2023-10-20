@@ -10,13 +10,9 @@ Usage is pretty simple: you are presented with a page to type in, with each of t
 
 ## Link
 
-Link is not here yet
+Link to heroku deployment
+https://npokrandt-text-editor-pwa-a4319b937d84.herokuapp.com/
 
 ## Credits
 
 Lots of help from stackoverflow and the chrome docs about service workers, and other stuff taken from previous assignments, but the rest of the code is my own
-
-<!-- TODO list: -->
-GIVEN a text editor web application
-WHEN I deploy to Heroku
-THEN I should have proper build scripts for a webpack application
